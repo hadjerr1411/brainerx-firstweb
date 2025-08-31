@@ -1,0 +1,93 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+:root {
+  --primary-color: rgb(217 119 6);
+  --secondary-background: rgb(254 243 199);
+  --background: rgb(255 251 235);
+}
+header {
+  position: sticky;
+  top: 0px;
+}
+header > figure {
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px 5%;
+  font-weight: bold;
+  gap: 5px;
+}
+header > nav {
+  display: none;
+}
+/* hero section */
+
+#hero-section{
+    background-image: url(./assets/main.jpg);
+    background-size: cover;
+    padding: 40% 5%;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#hero-section > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hero-section > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    gap: 10px;
+} 
+button{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s ease;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(147, 81, 5) ;
+}
+.view{
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.view:hover{
+    background-color: rgb(167, 166, 166);
+}
+
+/* About section */
+
+h6{
+    background-color: var(--secondary-background);
+    padding: 5px 5px;
+    transition: all 0.3s ease;
+    color: rgb(207, 56, 56);
+    border-radius: 25px;
+    display: inline;
+    transition: all 0.3s ease;
+
+}
+h6:hover{
+    background-color: rgb(189, 107, 14) ;
+    display: inline-block;
+    
+}
+aside{
+    display: inline-block;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+}
